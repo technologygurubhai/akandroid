@@ -48,9 +48,14 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
   </style>
 </head>
 <body>
+	<div id="mbody" class="animate-bottom">
   <!-- nav bar -->
   <header class="text-gray-600 body-font">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -188,5 +193,6 @@
 	<p>Whatsapp Story Saver</p>
 	<p>Thank You</p>
 </footer>
+	</div>
 </body>
 </html>
